@@ -173,3 +173,33 @@
     background-image: linear-gradient(to right, #f7600e 20%, #000 10%);
     
   }
+  .line2::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ffffff );
+    
+  } 
+
+
+
+  
+
+  .IMPACT .row .card .card-body img{
+/* margin-right: 2%; */
+padding-right: 15px;
+  }
+
+
+  .sec-4 {
+    background-image: url("../imges/backgroungIMPLE.png");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15%;
+  }
+  .sec-4 .text{
+    justify-content: space-evenly;
+  }
