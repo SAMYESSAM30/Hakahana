@@ -150,7 +150,7 @@
     margin-bottom: 4%;
 }
 .Cards .card-body{
-  min-height: 150px;
+  min-height: 140px;
 }
 .Cards .card-body i{font-size:31px;color:#F78B50}
 
@@ -163,6 +163,8 @@
     }
 .Cards .card-body p{
   padding-top: 10px;
+  font-size: 15px;
+  color: #878C8F;
 }
 
           .sec-4 {

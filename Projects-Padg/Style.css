@@ -42,7 +42,15 @@
     color: #fff;
     border-radius: 10px;
   }
-  
+      
+@media (max-width: 987px) {
+  .section1 .carousel .navbar {
+    background-color: rgb(28 28 28 / 96%);
+  }
+  .section1 .carousel .navbar ul li {
+    margin-top: 5px;
+  }
+}
   .carousel .carousel-inner .carousel-item .carousel-caption h1 .read {
     display: inline;
     color: #f7600e;
@@ -136,15 +144,7 @@
       .section1 .carousel .navbar .navbar-toggler {
         color: aliceblue;
       }
-      
-@media (max-width: 987px) {
-  .section1 .carousel .navbar {
-    background-color: rgb(28 28 28 / 96%);
-  }
-  .section1 .carousel .navbar ul li {
-    margin-top: 5px;
-  }
-}
+  
 
 
 /* Start Title */
