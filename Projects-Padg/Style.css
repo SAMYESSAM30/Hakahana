@@ -136,6 +136,15 @@
       .section1 .carousel .navbar .navbar-toggler {
         color: aliceblue;
       }
+      
+@media (max-width: 987px) {
+  .section1 .carousel .navbar {
+    background-color: rgb(28 28 28 / 96%);
+  }
+  .section1 .carousel .navbar ul li {
+    margin-top: 5px;
+  }
+}
 
 
 /* Start Title */
