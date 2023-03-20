@@ -7,6 +7,9 @@
   .section1 .carousel {
     position: relative;
   }
+  .carousel-inner h1{
+    font-weight: bold;
+  }
   
   .section1 .carousel .navbar {
     position: absolute;
@@ -106,9 +109,12 @@
     }
     .PROJECT p{
       color: #636363;
-      font-size: 24px;
+      font-size: 20px;
       padding:8% 6% 0 3%;
 
+    }
+    .line .h2{
+      font-weight: bold
     }
     /* Start sec2 */
     .sec-2 {
@@ -211,11 +217,12 @@
   
 
   .IMPACT .row .card .card-body img{
-/* margin-right: 2%; */
 padding-right: 15px;
   }
 
-
+  .IMPACT .card1{
+    height: 280px;
+  }
   .sec-4 {
     background-image: url("../imges/backgroungIMPLE.png");
     background-size: cover;
@@ -334,7 +341,7 @@ padding-right: 15px;
 }
 
 .section-6 .co-1-links a i:hover {
-  color: #006d77;
+  color:#F7600E;
 }
 
 .section-6 p {
@@ -367,11 +374,11 @@ padding-right: 15px;
 }
 
 .section-6 .co-2 ul li:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 ul li a:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 .co-3 ul {

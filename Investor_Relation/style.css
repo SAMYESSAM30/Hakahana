@@ -7,7 +7,12 @@
   .section1 .carousel {
     position: relative;
   }
-  
+  .carousel-inner h1{
+    font-weight: bold;
+  }
+  .line .h2{
+    font-weight: bold
+  }
   .section1 .carousel .navbar {
     position: absolute;
     background-color: rgba(23, 22, 22, 0.104);
@@ -290,7 +295,7 @@ section3 .row .sec-contant .accordion .accordion-item .accordion-button:not(.col
 }
 
 .section-6 .co-1-links a i:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 p {
@@ -323,11 +328,11 @@ section3 .row .sec-contant .accordion .accordion-item .accordion-button:not(.col
 }
 
 .section-6 .co-2 ul li:hover {
-  color: #006d77;
+  color:#F7600E;
 }
 
 .section-6 ul li a:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 .co-3 ul {

@@ -3,7 +3,12 @@
   margin: 0;
   padding: 0;
 }
-
+.line .h2{
+  font-weight: bold
+}
+.carousel-inner h1{
+  font-weight: bold;
+}
 .section1 .carousel {
   position: relative;
 }
@@ -47,7 +52,9 @@
   display: inline;
   color: #f7600e;
 }
-
+/* .nav-item a {
+  font-size: 20px;
+} */
 .carousel .carousel-indicators button {
   background-color: white;
   color: #fff;
@@ -542,7 +549,7 @@ body {
 }
 
 .section-6 .co-1-links a i:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 p {
@@ -575,11 +582,11 @@ body {
 }
 
 .section-6 .co-2 ul li:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 ul li a:hover {
-  color: #006d77;
+  color: #F7600E;
 }
 
 .section-6 .co-3 ul {
@@ -631,7 +638,7 @@ body {
 .section-6 .co-4 ul .li-1::before {
   font: var(--fa-font-solid);
   content: "\f3c5";
-  color: #b56306;
+  color: #F7600E;
   font-size: 15px;
   padding-right: 10px;
 }
@@ -639,7 +646,7 @@ body {
 .section-6 .co-4 ul .li-2::before {
   font: var(--fa-font-solid);
   content: "\f095";
-  color: #b56306;
+  color: #F7600E;
   font-size: 15px;
   padding-right: 10px;
 }
@@ -647,7 +654,7 @@ body {
 .section-6 .co-4 ul .li-3::before {
   font: var(--fa-font-solid);
   content: "\f0e0";
-  color: #b56306;
+  color: #F7600E;
   font-size: 15px;
   padding-right: 10px;
 }
@@ -655,7 +662,7 @@ body {
 .section-6 .co-4 ul .li-4::before {
   font: var(--fa-font-solid);
   content: "\f017";
-  color: #b56306;
+  color: #F7600E;
   font-size: 15px;
   padding-right: 10px;
 }
@@ -672,4 +679,8 @@ body {
   color: #ffffff;
   text-align: center;
   font-size: 12px;
+}
+
+.carousel-inner .card .position-absolute p{
+  font-weight: bold ;
 }
